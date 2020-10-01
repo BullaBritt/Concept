@@ -1,0 +1,86 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* TEXT */
+body {
+  overflow-x: hidden;
+  background-color: #686c6a;
+  font-family: "Bree Serif", serif;
+  color: white;
+}
+
+.ALT {
+  font-family: "Courier New", Courier, monospace;
+  color: gray;
+  font-style: italic;
+  display: flex;
+  font-size: 0.875em;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "Bungee Inline", cursive;
+
+  color: #ffffff;
+}
+
+h2 {
+  font-family: "Bungee Inline", cursive;
+  color: #ffffff;
+}
+
+/*TXT LINK*/
+.Tlink {
+  text-decoration: none;
+  color: grey; /*grey*/
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: gray; /*grey*/
+}
+
+a:hover {
+  text-decoration: gray;
+  color: #ffffff; /*#ffffff*/
+}
+
+/*BOTTOM NAVBAR*/
+nav.Bnav {
+  padding: 0px;
+  background-color: #686c6a;
+}
+
+.cols,
+.col {
+  display: flex;
+  flex-flow: wrap;
+  background-color: none;
+}
+.col {
+  flex: 1;
+  flex-direction: column;
+  padding: 4px;
+}
+
+.c1,
+.c2,
+.c3 {
+  flex: 1;
+}
+
+.txt {
+  flex: 1;
+}
+
+.t2 {
+  padding: 0px;
+  text-decoration: darkgrey;
+  color: darkgrey;
+}

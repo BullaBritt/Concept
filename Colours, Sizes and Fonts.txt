@@ -1,0 +1,54 @@
+background-color: grey;
+
+(H1)
+font-family: 'Bungee Inline', cursive;
+
+color: #ffffff;
+
+(H2)
+font-family: "Bungee Shade", cursive;
+color: #ffffff;
+
+(TEXT) 
+font-family: "Bree Serif", serif;
+color: #ffffff;
+
+(ALT) 
+font-family: "Courier New", Courier, monospace;
+color: gray;
+font-style: italic;
+
+
+
+ALL LINKS
+
+https://www.artstation.com/mshen
+https://www.artstation.com/guweiz
+https://www.artstation.com/bayardwu
+https://www.artstation.com/morry
+
+
+
+
+
+
+
+<div class="masonary-brick masonary-brick--h">
+        <!--div för specifika bilder som en sak-->
+        <a href="">
+          <img class="masonary-img" src="" alt="" />
+        </a>
+
+        <p>
+          <!-- Texten -->
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+          nesciunt, ut dolor magni nihil assumenda laboriosam quas tempora,
+          quibusdam dicta sunt esse ducimus, totam maiores. Maiores delectus
+          illum porro iste.
+        </p>
+
+        <footer class="ALT">
+          <!-- information -->
+          <a class="Tlink" href=""><span>"???"</span></a>
+        </footer>
+      </div>

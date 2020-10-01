@@ -1,0 +1,56 @@
+
+
+/* THE ARTICLES */
+
+/* Collumn SIZE , COLOR */
+
+.columns,
+.column {
+  display: flex;
+  flex-flow: wrap;
+  background-color: none;
+}
+.column {
+  border: 0px solid black;
+  flex: 2;
+  flex-direction: column;
+  padding: 4px;
+}
+
+.main-column {
+  flex: 3;
+}
+.nested-column {
+  display: flex;
+  flex-flow: wrap;
+  flex: auto;
+  min-width: 300px;
+}
+
+.article {
+  border: 3px solid #434544; /*rgb(206, 206, 206)*/
+  background-color: #4d504e; /*rgb(172, 172, 172)*/
+  color: #ffffff;
+  flex: 1;
+  margin: 4px;
+  padding: 8px;
+}
+
+.img,
+.img2 {
+  display: flex;
+  min-width: 300px;
+  max-height: 100%;
+}
+
+.img {
+  flex: auto;
+  width: 100%;
+}
+
+.img2 {
+  flex: auto;
+  width: 100%;
+}
+
+

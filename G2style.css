@@ -1,0 +1,153 @@
+/* NAVBAR */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+li {
+  float: left;
+  border-right: none;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: gray;
+}
+
+li a:hover:not(.active) {
+  color: #ffffff;
+}
+
+.active {
+  background-color: rgb(230, 230, 230);
+}
+s html {
+  font-family: sans-serif;
+}
+
+/* TEXT */
+body {
+  background-color: grey;
+  font-family: "Bree Serif", serif;
+  color: white;
+}
+
+.ALT {
+  font-family: "Courier New", Courier, monospace;
+  color: gray;
+  font-style: italic;
+}
+.ALT {
+  display: flex;
+  font-size: 0.875em;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+h1 {
+  font-family: "Bungee Inline", cursive;
+
+  color: #ffffff;
+}
+
+h2 {
+  font-family: "Bungee Inline", cursive;
+  color: #ffffff;
+}
+
+/*MASONARY*/
+.masonary {
+  display: flex;
+  width: 100%;
+  background-color: none;
+}
+
+.masonary--h {
+  flex-flow: row wrap;
+  flex: auto;
+}
+.masonary--h,
+.masonary--v {
+  margin-left: 0px;
+  counter-reset: brick;
+}
+
+.masonary-brick {
+  background: rgb(172, 172, 172);
+  border: 5px solid grey;
+  overflow: hidden;
+  border-radius: 0px; /* Runda kanter på boxerna */
+  margin: 0 0 8px 8px;
+  position: relative;
+  display: block;
+  padding: 4px;
+}
+
+.masonary-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.masonary-brick--h {
+  flex: auto;
+  height: 100%; /* ändra för att välja mellan perfekt placering eller ojämn */
+  width: auto;
+  min-width: 10%;
+}
+
+.masonary-brick--h {
+  border: 3px solid rgb(206, 206, 206); /*Grå linje runt om */
+  background-color: solid rgb(172, 172, 172);
+  color: #ffffff;
+  flex: 29%; /* Hur mycket bilderna skalas */
+  margin: 2px;
+  padding: 8px; /*Grå linje runt om */
+  /*min-width: 13%;*/
+}
+
+/*TXT LINK*/
+.Tlink {
+  text-decoration: none;
+  color: grey;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  text-decoration: gray;
+  color: #ffffff;
+}
+
+/*BOTTOM NAVBAR*/
+.Bnav {
+  padding: 0px;
+  background-color: darkgray;
+}
+
+.t2 {
+  padding: 0px;
+  text-decoration: none;
+  color: darkgray;
+}
